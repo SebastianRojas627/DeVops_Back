@@ -3,10 +3,9 @@ name: De Vops en el Backend
 on:
     push:
         branches:
-            - 'master'
+            - 'main'
 
 jobs:
     test:
         name: Testing
         runs-on: ubuntu-20.04
-        
