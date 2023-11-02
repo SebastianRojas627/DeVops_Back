@@ -1,6 +1,6 @@
-name: CI/CD on Devops Final Project
+name: CI/CD on Devops Final Project Backend
 
-'on':
+on:
   pull_request:
     branches:
       - prod
