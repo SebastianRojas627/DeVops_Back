@@ -14,7 +14,8 @@ const hash = (string) => {
 
 const db = mysql.createConnection({
     user: "root",
-    host: "localhost",
+    host: "database",
+    port: 8000,
     password: "password",
     database: "devops"
     
